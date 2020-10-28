@@ -1,0 +1,68 @@
+body {
+  background-color: aliceblue;
+}
+form {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(108, 190, 238);
+  border: 1px solid black;
+  border-radius: 5pt;
+  margin: 5% auto;
+  width: 33%;
+  padding: 10pt;
+}
+
+form label {
+  margin-right: 5pt;
+}
+h3 {
+  text-decoration: underline;
+  align-self: center;
+}
+form button {
+  padding: 4pt 8pt;
+  border: 1px solid black;
+  border-radius: 5pt;
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+li span {
+  padding: 2pt 4pt;
+  border: 1px solid black;
+  border-radius: 5pt;
+  background-color: white;
+  cursor: pointer;
+  align-self: right;
+}
+.form-group {
+  display: flex;
+  flex-flow: row;
+  align-content: center;
+  justify-content: center;
+  margin: 5pt;
+}
+.TodosList {
+  display: flex;
+  flex-flow: column;
+  width: 50%;
+  margin: 5pt auto;
+  align-items: baseline;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 5pt;;
+  background-color: white;
+}
+.TodosList li {
+  margin: 10pt;
+}
+.TodosList ol {
+  min-width: 100%;
+}
+
+.TodosList li span, .TodosList li p {
+  display: inline;
+  margin: 2pt 2pt 2pt 6pt;
+}
+

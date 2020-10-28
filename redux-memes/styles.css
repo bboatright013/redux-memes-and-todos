@@ -1,0 +1,55 @@
+.meme {
+    width: 300px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin: 15pt;
+    float: left;
+    border: 1px solid black;
+    border-radius: 5pt;
+    position: relative;
+}
+
+.delete {
+    float: right;
+    font-size: 14pt;
+    border: 1px solid black;
+    border-radius: 5pt;
+    font-weight: bold;
+    cursor: pointer;
+}
+.meme-top, .meme-bottom{
+    position: absolute;
+    font-size: 2rem;
+    font-weight: bold;
+    left: 20%;
+}
+.meme-top {
+    top: 5pt;
+}
+.meme-bottom {
+    bottom: 5pt;
+}
+
+form {
+    width: 50%;
+    margin: 25pt auto;
+    background-color: beige;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 5pt;
+    padding: 25pt 0;
+}
+.addMeme {
+    padding: 10pt 25pt;
+    margin: 5pt;
+}
+.form-group {
+    display: flex;
+    margin-top: 10pt;
+    justify-content: space-between;
+}
